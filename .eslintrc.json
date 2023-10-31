@@ -21,6 +21,10 @@
             "version": "detect"
         }
     },
+    "globals": {
+        "test": false,
+        "expect": false
+    },
     "rules": {
         "no-unused-vars": 1,
         "react/prop-types": 1
