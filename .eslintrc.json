@@ -5,8 +5,8 @@
         "node": true
     },
     "extends": [
-        "standard",
-        "plugin:react/recommended",
+        "react-app",
+        "react-app/jest",
         "prettier"
     ],
     "parserOptions": {
@@ -20,10 +20,6 @@
         "react": {
             "version": "detect"
         }
-    },
-    "globals": {
-        "test": false,
-        "expect": false
     },
     "rules": {
         "no-unused-vars": 1,
