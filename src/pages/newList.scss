@@ -21,3 +21,23 @@
       border-radius: 5px;
     }
 }
+
+@media screen and (max-width: 768px) {
+  /*　for iPad 　*/
+  .new-list {
+    width: 60%;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*　for iPhoneSE　*/
+  .new-list {
+    width: 80%;
+    font-size: 90%;
+
+      &-title {
+        width: 100%;
+      }
+  }
+}

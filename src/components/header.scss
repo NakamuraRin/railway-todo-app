@@ -13,3 +13,23 @@
   color: #ffffff;
   margin: auto 25px auto auto;
 }
+
+@media screen and (max-width: 768px) {
+  /*　for iPad 　*/
+  .header {
+    width: 100%;
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*　for iPhoneSE　*/
+  .header {
+    width: 100%;
+    font-size: 80%;
+  }
+
+  .sign-out-button {
+    margin: auto 15px auto auto;
+  }
+}

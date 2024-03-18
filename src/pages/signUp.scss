@@ -28,3 +28,19 @@
 .error-message {
   color: #ff3333;
 }
+
+@media screen and (max-width: 768px) {
+  /*　for iPad 　*/
+  .signup {
+    width: 60%;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*　for iPhoneSE　*/
+  .signup {
+    width: 80%;
+    font-size: 90%;
+  }
+}

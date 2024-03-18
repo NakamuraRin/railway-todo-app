@@ -10,7 +10,8 @@
 
     &-select-list,
     &-title,
-    &-detail {
+    &-detail,
+    &-limit {
       width: 300px;
       margin-bottom: 25px;
     }
@@ -30,4 +31,34 @@
 
 .error-message {
   color: #ff3333;
+}
+
+@media screen and (max-width: 768px) {
+  /*　for iPad 　*/
+  .new-task {
+    width: 60%;
+    font-size: 90%;
+
+    &-select-list,
+    &-title,
+    &-detail,
+    &-limit {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /*　for iPhoneSE　*/
+  .new-task {
+    width: 80%;
+    font-size: 90%;
+
+    &-select-list,
+    &-title,
+    &-detail,
+    &-limit {
+      width: 100%;
+    }
+  }
 }
